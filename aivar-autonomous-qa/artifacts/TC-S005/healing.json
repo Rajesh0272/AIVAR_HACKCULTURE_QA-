@@ -1,0 +1,17 @@
+{
+  "status": "ESCALATED",
+  "diagnosis": {
+    "failure_type": "APPLICATION_ERROR",
+    "confidence": 0.95,
+    "analysis": "The error 'Unsupported selector strategy: None' indicates that Playwright's locator strategy was set to None, which is an invalid selector strategy. This is an application-level configuration error in the test setup, not a UI element change or missing element issue.",
+    "expected_locator": {
+      "role": "button",
+      "name": "Login"
+    },
+    "healing_candidate": null,
+    "business_intent_preserved": false,
+    "safe_to_heal": false
+  },
+  "validation": null,
+  "action": "Application defect detected; no test modification attempted."
+}
